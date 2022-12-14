@@ -1,0 +1,115 @@
+---
+permalink: intro-family.html 
+keywords: introduction, what E-Series is, e-series, SANtricity, CLI, system manager, unified manager 
+summary: La familia de productos E-Series de NetApp ofrece servicios de gestión de datos de aplicaciones y almacenamiento para aplicaciones con un ancho de banda elevado que necesitan un almacenamiento en bloque rápido, fácil de gestionar y sencillo con fiabilidad de clase empresarial. 
+---
+= Introducción a la familia de sistemas de almacenamiento E-Series
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+La familia de almacenamiento E-Series de NetApp ofrece backup y recuperación de datos en el cloud flexible y rentable. Además, está diseñada para aplicaciones dedicadas de ancho de banda elevado que necesiten un almacenamiento en bloque rápido, sencillo y fácil de gestionar con fiabilidad de clase empresarial.
+
+
+
+== Plataformas E-Series
+
+Los sistemas de almacenamiento E-Series utilizan herramientas de gestión de datos que tienen en cuenta las aplicaciones y pueden gestionar varios tipos de unidades con un factor de forma 2U o 4U. Puede conectar el sistema de almacenamiento a UNA SAN desde varios tipos de interfaz y a diversos sistemas operativos host.
+
+Los sistemas de almacenamiento E-Series incluyen los siguientes modelos de plataforma.
+
+
+
+=== EF600 y EF300
+
+Diseñada específicamente para cargas de trabajo que demandan los niveles más altos de rendimiento, como análisis de Big Data y bases de datos.
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#ef600-models["Obtenga más información acerca del modelo EF600"].
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#ef300-models["Más información sobre el modelo EF300"].
+
+https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf["Lea las especificaciones técnicas de EF-Series"^].
+
+
+
+=== E5700
+
+Creado para aplicaciones de ancho de banda que manejan un gran volumen de datos y requieren un alto rendimiento con una excelente fiabilidad.
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e5700-models["Obtenga más información acerca del modelo E5700"].
+
+https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf["Lea las especificaciones técnicas de E5700"^].
+
+
+
+=== E2800
+
+Optimizada para pequeñas empresas y oficinas remotas que requieren rendimiento de cargas de trabajo mixtas y fiabilidad para aplicaciones dedicadas.
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e2800-models["Obtenga más información acerca del modelo E2800"].
+
+https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf["Lea las especificaciones técnicas de E2800"^].
+
+
+
+== Software SANtricity
+
+El software SANtricity proporciona las interfaces web de System Manager y Unified Manager que se utilizan para ver, aprovisionar y gestionar sistemas de almacenamiento en la red.
+
+https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf["Lea las especificaciones técnicas del software SANtricity"^].
+
+
+
+=== System Manager de SANtricity
+
+System Manager es un software de gestión basado en web integrado en cada controladora. Para acceder a la interfaz de usuario, apunte un explorador a la dirección IP del controlador. Un asistente de configuración le ayuda a comenzar con la configuración del sistema.
+
+* Los intuitivos asistentes de flujo de trabajo y la ayuda contextual ayudan a agilizar las tareas de configuración.
+* El software sugiere candidatos de configuración que aprovechan las funcionalidades de hardware como la protección contra pérdida de cajón en compartimentos densos y la gestión inteligente de la vida útil y el rendimiento de las SSD.
+* La sofisticada supervisión del rendimiento permite ver información desde el nivel del sistema hasta las unidades individuales o exportar los datos de rendimiento para su posterior análisis.
+* Las actividades de ajuste como la gestión de la caché SSD o la caché de datos se realizan en línea. Cuando se requiere una reparación, el asistente de recuperación de SANtricity proporciona instrucciones paso a paso.
+
+
+Vaya a la https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["Sitio de documentación de SANtricity System Manager"], donde puede encontrar información acerca de cómo planificar, configurar, administrar y solucionar problemas en la matriz de almacenamiento.
+
+
+
+=== Unified Manager de SANtricity
+
+Unified Manager es un software basado en web que se utiliza para gestionar todo el dominio. Desde una vista central, puede ver el estado de todas las cabinas E-Series y EF-Series más recientes, como E2800, EF280, EF300, E5700, EF570 Y EF600. También puede realizar operaciones en lote en cabinas de almacenamiento seleccionadas.
+
+* Desde una única ventana puede ver el estado, organizar cabinas en grupos, actualizar el sistema operativo SANtricity para varias cabinas e iniciar la instancia integrada de SANtricity System Manager para cada cabina.
+* Es posible configurar rápidamente alertas y otras configuraciones en varias cabinas con una sola operación.
+* Unified Manager de SANtricity se instala en un servidor de gestión Linux o Windows y se ejecuta en un explorador.
+
+
+Vaya a la https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html["Sitio de documentación de SANtricity Unified Manager"], donde puede aprender a ejecutar comandos de administración de almacenamiento en varias matrices de almacenamiento en red.
+
+
+
+=== Proxy de servicios web de SANtricity
+
+El proxy de servicios web es un servidor API RESTful con todas las funciones para satisfacer las necesidades de orquestación y automatización que se pueden gestionar cientos de cabinas E-Series nuevas y antiguas. El proxy se instala por separado en servidores Windows o Linux. Web Services incluye documentación de API que permite interactuar directamente con la API DE REST.
+
+Acceda a https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html["Documentos de Web Services Proxy"].
+
+
+
+== CLI
+
+La interfaz de línea de comandos (CLI) es una aplicación de software que permite configurar y supervisar cabinas de almacenamiento.
+
+La CLI permite ejecutar comandos desde el símbolo del sistema de un sistema operativo, como C: En dos, una ruta de sistema operativo Linux o una ruta de sistema operativo Solaris.
+
+Vaya a la https://docs.netapp.com/us-en/e-series-cli/index.html["Sitio de documentación de la CLI de SANtricity"], Donde puede aprender a configurar y supervisar las cabinas de almacenamiento mediante comandos de la CLI.
+
+
+
+== Si quiere más información
+
+* https://docs.netapp.com/us-en/e-series/index.html["Documentos del sistema E-Series"^]
+* https://docs.netapp.com/us-en/e-series-santricity/index.html["Documentos de software de SANtricity"^]
+* https://docs.netapp.com/us-en/e-series-cli/index.html["Documentos de la CLI de SANtricity"^]
+
