@@ -80,7 +80,6 @@
   <block id="08b37af774e1d6729f763c26e7c1384a" category="list-text"><block ref="08b37af774e1d6729f763c26e7c1384a" category="inline-link-rx"></block></block>
   <block id="5f93f381aa8df330451fa5b834f54def" category="doc">Documentación de E-Series</block>
   <block id="294d136d5efcf1648eafe92db6c5cf9e" category="sidebar">Documentación de la familia de productos E-Series</block>
-  <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="sidebar">Todo</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Manos a la obra</block>
   <block id="dc21b082b0947a93d387b8c7e8f89ee5" category="sidebar">Almacenamiento de datos</block>
   <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">Gestión del almacenamiento</block>
@@ -95,6 +94,7 @@
   <block id="19a0a15a7c4d3a3bc51418cbc9a3b2ec" category="sidebar">Utilice la CLI para configurar y supervisar los sistemas de almacenamiento E-Series desde el símbolo del sistema del sistema operativo.</block>
   <block id="7be46423c2b30b6cfa401cb45a35ad2b" category="sidebar">API de servicios web</block>
   <block id="c47070155f88602aa042524cd2cc4603" category="sidebar">Use la API de RESTful para crear y automatizar flujos de trabajo en sus sistemas de almacenamiento E-Series nuevos y heredados.</block>
-  <block id="ae3764f1afaeea3c3503d944dce8f0b9" category="sidebar">BeeGFS en NetApp</block>
-  <block id="cd03a6967293f50ada66e4749041088c" category="sidebar">Utilice BeeGFS en NetApp para obtener una infraestructura de almacenamiento de IA y HPC de alta disponibilidad que combina el sistema de archivos en paralelo BeeGFS con los sistemas de almacenamiento EF600 de NetApp.</block>
+  <block id="3a1266b54b8b88dbb50662ab4166c05f" category="sidebar">Todos los documentos</block>
+  <block id="28e8b3e83af233fe7085ba954fc6fd36" category="sidebar">BeeGFS en NetApp con almacenamiento E-Series</block>
+  <block id="c6ed86424e776eb55d39d911ea6a9183" category="sidebar">Utilice BeeGFS en NetApp para crear y poner en marcha una infraestructura de alta disponibilidad que combina el sistema de archivos en paralelo BeeGFS con los sistemas de almacenamiento EF600 de NetApp.</block>
 </blocks>
