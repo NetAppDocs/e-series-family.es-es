@@ -14,8 +14,8 @@ sidebar:
     url: "/index.html"
 product-family:
   sidebarlinks:
-  - title: Todos los documentos
-    tags: tag_storage_management,tag_data_storage,tag_cli,tag_get_started,tag_SANtricity,
+  - title: Todo
+    tags: tag_storage_management, tag_data_storage, tag_cli, tag_get_started, tag_SANtricity,
       tag_solution
     class: active
   - title: Manos a la obra
@@ -34,32 +34,32 @@ product-family:
     tags: all, tag_get_started
   - title: Sistemas E-Series
     icon: "./media/system_line.png"
-    url: https://docs.netapp.com/us-en/e-series/index.html
+    url: "../e-series/index.html"
     summary: Use los sistemas de almacenamiento E-Series para respaldar las cargas
       de trabajo de sus aplicaciones con almacenamiento en bloques rápido y fiabilidad
       de clase empresarial.
     tags: all, tag_data_storage
   - title: Software SANtricity
     icon: "./media/config_line.png"
-    url: https://docs.netapp.com/us-en/e-series-santricity/index.html
+    url: "../e-series-santricity/index.html"
     summary: Use el software SANtricity para aprovisionar y gestionar sus sistemas
       de almacenamiento E-Series desde una interfaz web.
     tags: all, tag_storage_management, tag_SANtricity
   - title: Interfaz de línea de comandos
     icon: "./media/cli_line.png"
-    url: https://docs.netapp.com/us-en/e-series-cli/index.html
+    url: "../e-series-cli/index.html"
     summary: Utilice la CLI para configurar y supervisar los sistemas de almacenamiento
       E-Series desde el símbolo del sistema del sistema operativo.
     tags: all, tag_storage_management, tag_SANtricity
   - title: API de servicios web
     icon: "./media/api.png"
-    url: https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html
+    url: "../e-series/web-services-proxy/index.html"
     summary: Use la API de RESTful para crear y automatizar flujos de trabajo en sus
       sistemas de almacenamiento E-Series nuevos y heredados.
     tags: all, tag_storage_management, tag_SANtricity
   - title: BeeGFS en NetApp con almacenamiento E-Series
     icon: "./media/api.png"
-    url: https://docs.netapp.com/us-en/beegfs/index.html
+    url: "../beegfs/index.html"
     summary: Utilice BeeGFS en NetApp para crear y poner en marcha una infraestructura
       de alta disponibilidad que combina el sistema de archivos en paralelo BeeGFS
       con los sistemas de almacenamiento EF600 de NetApp.

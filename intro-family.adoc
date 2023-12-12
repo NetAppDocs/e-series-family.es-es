@@ -1,15 +1,16 @@
 ---
 permalink: intro-family.html 
-keywords: introduction, what E-Series is, e-series, SANtricity, CLI, system manager, unified manager 
-summary: La familia de productos E-Series de NetApp ofrece servicios de gestión de datos de aplicaciones y almacenamiento para aplicaciones con un ancho de banda elevado que necesitan un almacenamiento en bloque rápido, fácil de gestionar y sencillo con fiabilidad de clase empresarial. 
+keywords: e-series 
+summary: La familia de almacenamiento E-Series de NetApp ofrece backup y recuperación de datos en el cloud flexible y rentable. Además, está diseñada para aplicaciones dedicadas de ancho de banda elevado que necesiten un almacenamiento en bloque rápido, sencillo y fácil de gestionar con fiabilidad de clase empresarial. 
 ---
-= Introducción a la familia de sistemas de almacenamiento E-Series
+= Obtenga más información sobre la familia de productos E-Series
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
+[role="lead"]
 La familia de almacenamiento E-Series de NetApp ofrece backup y recuperación de datos en el cloud flexible y rentable. Además, está diseñada para aplicaciones dedicadas de ancho de banda elevado que necesiten un almacenamiento en bloque rápido, sencillo y fácil de gestionar con fiabilidad de clase empresarial.
 
 
